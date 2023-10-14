@@ -12,7 +12,7 @@ const Blog = () => {
           <Button
             text={theme === "dark" ? "Light" : "Dark"}
             onClick={changeTheme}
-            btnClass={`${theme === "dark" && "btn-dark"} btn-sm`}
+            btnClass={`${theme === "dark" && "btn-light"} btn-sm`}
           />
         </span>
       </div>

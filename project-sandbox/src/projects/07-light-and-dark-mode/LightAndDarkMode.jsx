@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Blog from "./Blog";
 import { ThemeContext, themes } from "./context/theme-context";
 
-const LightAndDarkMode = (props) => {
+const LightAndDarkMode = () => {
   const [theme, setTheme] = useState(themes.dark);
   function changeTheme() {
     theme === themes.dark ? setTheme(themes.light) : setTheme(themes.dark);

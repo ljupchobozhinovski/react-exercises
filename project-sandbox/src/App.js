@@ -1,5 +1,6 @@
 import "./App.css";
-import LightAndDarkMode from "./projects/07-light-and-dark-mode/LightAndDarkMode";
+import SlideToUnlock from "./projects/08-slide-to-unlock/SlideToUnlock";
+// import LightAndDarkMode from "./projects/07-light-and-dark-mode/LightAndDarkMode";
 // import TemperatureController from "./projects/06-temperature-app/TemperatureController";
 // import AlertApp from "./projects/05-alerts/AlertApp";
 // import EsignatureApp from "./projects/01-e-signature-app/EsignatureApp";
@@ -16,7 +17,8 @@ function App() {
       {/* <TestimonialsApp/> */}
       {/* <AlertApp/> */}
       {/* <TemperatureController /> */}
-      <LightAndDarkMode />
+      {/* <LightAndDarkMode /> */}
+      <SlideToUnlock />
     </div>
   );
 }
