@@ -1,5 +1,6 @@
 import "./App.css";
-import PopUpApp from "./projects/11-magic-pop-up/PopUpApp";
+import ProgressBarContainer from "./projects/12-progress-bar/ProgressBarContainer";
+// import PopUpApp from "./projects/11-magic-pop-up/PopUpApp";
 // import HiddenSearchBarApp from "./projects/10-hidden-search-bar/HiddenSearchBarApp";
 // import SliderApp from "./projects/09-slider/SliderApp";
 // import SlideToUnlock from "./projects/08-slide-to-unlock/SlideToUnlock";
@@ -24,7 +25,8 @@ function App() {
       {/* <SlideToUnlock /> */}
       {/* <SliderApp /> */}
       {/* <HiddenSearchBarApp /> */}
-      <PopUpApp />
+      {/* <PopUpApp /> */}
+      <ProgressBarContainer />
     </div>
   );
 }
