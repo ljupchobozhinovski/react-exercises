@@ -1,6 +1,7 @@
 import "./App.css";
-import SearchFilterApp from "./projects/14-filter-contacs/SearchFilterApp";
-import RegistrationForm from "./projects/15-registration-form-validation/RegistrationForm";
+import NotesApp from "./projects/16-notes-app/NotesApp";
+// import SearchFilterApp from "./projects/14-filter-contacs/SearchFilterApp";
+// import RegistrationForm from "./projects/15-registration-form-validation/RegistrationForm";
 // import DialogBox from "./projects/13-dialog-box/DialogBox";
 // import ProgressBarContainer from "./projects/12-progress-bar/ProgressBarContainer";
 // import PopUpApp from "./projects/11-magic-pop-up/PopUpApp";
@@ -32,7 +33,8 @@ function App() {
       {/* <ProgressBarContainer /> */}
       {/* <DialogBox /> */}
       {/* <SearchFilterApp/> */}
-      <RegistrationForm/>
+      {/* <RegistrationForm/> */}
+      <NotesApp />
     </div>
   );
 }
