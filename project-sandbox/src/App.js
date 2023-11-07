@@ -1,5 +1,6 @@
 import "./App.css";
-import ResponsiveNav from "./projects/17-responsive-navigation/ResponsiveNav";
+import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
+// import ResponsiveNav from "./projects/17-responsive-navigation/ResponsiveNav";
 // import NotesApp from "./projects/16-notes-app/NotesApp";
 // import SearchFilterApp from "./projects/14-filter-contacs/SearchFilterApp";
 // import RegistrationForm from "./projects/15-registration-form-validation/RegistrationForm";
@@ -36,7 +37,8 @@ function App() {
       {/* <SearchFilterApp/> */}
       {/* <RegistrationForm/> */}
       {/* <NotesApp /> */}
-      <ResponsiveNav />
+      {/* <ResponsiveNav /> */}
+      <TextAnimationApp />
     </div>
   );
 }
