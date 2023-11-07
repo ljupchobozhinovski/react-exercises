@@ -1,5 +1,6 @@
 import "./App.css";
-import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
+import CompoundInterestRateApp from "./projects/19-compound-interest-rate-calc/CompoundInterestRateApp";
+// import TextAnimationApp from "./projects/18-text-animation/TextAnimationApp";
 // import ResponsiveNav from "./projects/17-responsive-navigation/ResponsiveNav";
 // import NotesApp from "./projects/16-notes-app/NotesApp";
 // import SearchFilterApp from "./projects/14-filter-contacs/SearchFilterApp";
@@ -38,7 +39,8 @@ function App() {
       {/* <RegistrationForm/> */}
       {/* <NotesApp /> */}
       {/* <ResponsiveNav /> */}
-      <TextAnimationApp />
+      {/* <TextAnimationApp /> */}
+      <CompoundInterestRateApp />
     </div>
   );
 }
