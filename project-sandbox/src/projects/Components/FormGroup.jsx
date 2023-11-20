@@ -22,7 +22,7 @@ export default function FormGroup({
         onInput={onInput}
         onKeyUp={onKeyUp}
         onChange={onChange}
-        className={className}
+        className={`${className} form-control`}
         readOnly={readOnly}
         ref={reference}
       />
