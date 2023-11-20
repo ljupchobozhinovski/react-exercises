@@ -1,7 +1,6 @@
 import "./App.css";
-import ExpensesCalcApp from "./projects/25-expenses-calculator/ExpensesCalcApp";
-
-
+import MortgageCalcApp from "./projects/26-mortgage-calc/MortgageCalcApp";
+// import ExpensesCalcApp from "./projects/25-expenses-calculator/ExpensesCalcApp";
 // import PhoneBookApp from "./projects/24-phone-book/PhoneBookApp";
 // import CardGameUI from "./projects/22-card-game-ui/CardGameUI";
 // import AnimatedLoginForm from "./projects/23-animated-login/AnimatedLoginForm";
@@ -54,7 +53,8 @@ function App() {
       {/* <CardGameUI /> */}
       {/* <AnimatedLoginForm/> */}
       {/* <PhoneBookApp /> */}
-<ExpensesCalcApp/>
+      {/* <ExpensesCalcApp/> */}
+      <MortgageCalcApp />
     </div>
   );
 }
