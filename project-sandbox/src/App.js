@@ -1,5 +1,6 @@
 import "./App.css";
-import MortgageCalcApp from "./projects/26-mortgage-calc/MortgageCalcApp";
+import Store from "./projects/27-course-store/Store";
+// import MortgageCalcApp from "./projects/26-mortgage-calc/MortgageCalcApp";
 // import ExpensesCalcApp from "./projects/25-expenses-calculator/ExpensesCalcApp";
 // import PhoneBookApp from "./projects/24-phone-book/PhoneBookApp";
 // import CardGameUI from "./projects/22-card-game-ui/CardGameUI";
@@ -54,7 +55,8 @@ function App() {
       {/* <AnimatedLoginForm/> */}
       {/* <PhoneBookApp /> */}
       {/* <ExpensesCalcApp/> */}
-      <MortgageCalcApp />
+      {/* <MortgageCalcApp /> */}
+      <Store/>
     </div>
   );
 }
