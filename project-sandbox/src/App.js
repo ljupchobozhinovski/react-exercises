@@ -1,5 +1,6 @@
 import "./App.css";
-import Store from "./projects/27-course-store/Store";
+import AuthApp from "./projects/28-authentication-app/AuthApp";
+// import Store from "./projects/27-course-store/Store";
 // import MortgageCalcApp from "./projects/26-mortgage-calc/MortgageCalcApp";
 // import ExpensesCalcApp from "./projects/25-expenses-calculator/ExpensesCalcApp";
 // import PhoneBookApp from "./projects/24-phone-book/PhoneBookApp";
@@ -56,7 +57,8 @@ function App() {
       {/* <PhoneBookApp /> */}
       {/* <ExpensesCalcApp/> */}
       {/* <MortgageCalcApp /> */}
-      <Store/>
+      {/* <Store/> */}
+      <AuthApp />
     </div>
   );
 }
