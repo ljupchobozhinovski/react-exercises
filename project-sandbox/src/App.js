@@ -1,5 +1,6 @@
 import "./App.css";
-import SynthesizerApp from "./projects/29-speach-synthesizer/SynthesizerApp";
+import ImagePost from "./projects/30-lazy-loading/ImagePost";
+// import SynthesizerApp from "./projects/29-speach-synthesizer/SynthesizerApp";
 // import AuthApp from "./projects/28-authentication-app/AuthApp";
 // import Store from "./projects/27-course-store/Store";
 // import MortgageCalcApp from "./projects/26-mortgage-calc/MortgageCalcApp";
@@ -60,7 +61,8 @@ function App() {
       {/* <MortgageCalcApp /> */}
       {/* <Store/> */}
       {/* <AuthApp /> */}
-      <SynthesizerApp />
+      {/* <SynthesizerApp /> */}
+      <ImagePost />
     </div>
   );
 }
